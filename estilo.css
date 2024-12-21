@@ -35,6 +35,7 @@ h2{
 }
 footer{
     display: block;
+    margin: 0px;
 }
 
 h3{
@@ -45,13 +46,17 @@ h3{
 
 #fotos{
 display: flex;
+width: 100%;
+margin: 0px;
 flex-wrap: wrap;
-padding: 1em;
 }
 
 
 #fotos img{
     display: inline-flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+    margin: 0px;
+    width: 250px;
+    padding: 10px;
+        
 }
