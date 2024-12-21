@@ -1,0 +1,35 @@
+body{
+    display: block;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 5em;
+}
+main{
+    display: block;
+}
+.escalacao{
+    display: flex;
+    justify-content: center;
+    grid-column: 3;
+    border: 1px solid black;
+    padding: 2em;
+}
+
+p{
+    font-size: 2.5em;
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
